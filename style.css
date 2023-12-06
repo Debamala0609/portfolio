@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+.sidebar{
+    background-color:rgb(189, 186, 186);
+    width:434px;
+    font-family: 'Dhurjati', sans-serif;
+    font-size: larger;
+    height:100hw;
+}
+.sidebar nav{
+    padding: 10px;
+    font-size: larger;
+}
+
+.sidebar nav li{
+    font-size: larger;
+    padding: 100px;
+    height: 100%;
+    width: 100%;
+
+}
+.sidebar nav li a {
+    text-decoration:none;
+    color: rgb(101, 139, 171);
+}
+.main{
+    background-color: blanchedalmond;
+    width: 90vw;
+    background-image: url(dribbb.gif);
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: honeydew;
+    height:75hw;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(cloudd.gif);
+}
+.myInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(16, 160, 112);
+    
+}
+.name{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: rgb(219, 128, 157);
+}
+.about{
+    font-family: 'Dhurjati', sans-serif;
+    font-size: 40px;
+    color: rgb(200, 200, 130);
+
+
+}
+.myPhoto img{
+
+    float: right;
+    height: 55%;
+    width: 25%;
+    border-radius: 30px;
+    border-style: groove;
+    border-color: rgb(152, 227, 227);
+    border-width: 10px;   
+}
+.mainskill{
+    display: flex;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aliceblue ;
+    background-color: chocolate;
+    height:1000px;
+    width: 90vw;
+    justify-content: space-around;
+}
+.mainedu{
+    display: flex;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aliceblue ;
+    background-color: chocolate;
+    height:1000px;
+    width: 90vw;
+    justify-content: space-around;
+
+}
+.maincontact{
+    padding: top;
+    align-content: center;
+    display: flex;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aliceblue ;
+    background-color: chocolate;
+    height:1000px;
+    width: 90vw;
+    justify-content: space-around;
+}
+.Home{
+    background-image: url(navimg.webp);
+    height:100%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
